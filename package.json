@@ -1,0 +1,43 @@
+{
+  "name": "@uux-design/core",
+  "version": "0.1.0",
+  "description": "Reference implementation of the Unified User Experience (UUX) Standard: an intent-first profiler, router, and complexity-absorbing middleware.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "example": "tsc -p tsconfig.json && node dist/example/basic-implementation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NelsonEm9/uux-design-the-paradigm-shift.git"
+  },
+  "keywords": [
+    "uux",
+    "ux",
+    "ui",
+    "design-system",
+    "framework",
+    "specification",
+    "ai",
+    "product-management"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
