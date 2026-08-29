@@ -176,7 +176,7 @@ Eighteen chapters across five parts:
 - **Part V — Toward a Next Generation:** the future interface, a challenge to the industry, and the conclusion.
 
 <p align="center">
-  <img src="./uux-standard-bookcover.png" alt="Unified User Experience (UUX) — book cover" width="360">
+  <img src="./uux-standard-bookcover.png?v=2" alt="Unified User Experience (UUX) — book cover" width="360">
 </p>
 
 ## Contributing
