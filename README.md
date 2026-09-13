@@ -22,32 +22,12 @@ Conversion = f(Intent) − (User Wait Time + System Delay)
 
 Every millisecond a system makes a human wait — on the screen or behind it — is friction subtracted directly from conversion. Traditional UX treats this as a rendering problem. UUX treats it as an architecture problem: intent decays exponentially the longer it takes to resolve, so the system's job is to resolve it before it decays.
 
-```mermaid
-flowchart LR
-    subgraph TUX["Traditional UX — Interface-Heavy"]
-        direction LR
-        A1["Landing Page"] --> A2["Menu / Navigation"]
-        A2 --> A3["Multi-Step Form"]
-        A3 --> A4["Submit"]
-        A4 --> A5["Unmonitored Inbox"]
-        A5 --> A6["Human Triage\n(hours/days later)"]
-        A6 --> A7["Manual CRM Entry"]
-        A7 --> A8["Delayed Response"]
-    end
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/be2d27b0-c629-420b-96bc-86345d810d56" />
 
-    subgraph UUX["UUX Standard — Operations-First"]
-        direction LR
-        B1["Single Origin\n(Intent Capture)"] --> B2["Intent Router"]
-        B2 --> B3["Complexity-Absorbing\nMiddleware"]
-        B3 --> B4["Concurrent Orchestration\n(CRM · Payments · Scheduling)"]
-        B4 --> B5["Deterministic Resolution\n(< 400ms perceived)"]
-    end
 
-    style TUX fill:#2a1414,stroke:#a33,color:#eee
-    style UUX fill:#0f2a1a,stroke:#3a3,color:#eee
-```
+Traditional UX optimizes the four boxes before "Submit" — button color, form field order, page transitions — and calls the job done there. Everything after that is the other four boxes on the bottom row: an unmonitored inbox, human triage, manual CRM entry, a delayed response. That's not a workflow, it's a postmortem.
 
-Traditional UX optimizes the six boxes on top — button color, form field order, page transitions — and calls the job done at "Submit." UUX starts at "Submit" and asks what happens next: is intent routed, decided, and acted on before it decays, or does it die in a queue?
+UUX is the five-box system on top. It starts exactly where traditional UX stops — at the moment of submission — and asks what happens next: is intent routed, decided, and acted on before it decays, or does it die in a queue?
 
 ---
 
