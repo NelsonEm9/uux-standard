@@ -186,3 +186,25 @@ This is now an open specification. Issues and pull requests against the treatise
 ## Author
 
 Nelson Emerson, 2026
+
+---
+
+## Citation & Attribution
+
+The Unified User Experience (UUX) specification, formulas, and text are published under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+### How to Cite
+
+**APA Format:**
+> Emerson, N. (2026). *Unified User Experience (UUX): An Operations-First Architectural Specification for Web Systems*. OdeSea Labs. https://github.com/NelsonEm9/uux-standard
+
+**BibTeX:**
+```bibtex
+@misc{emerson2026uux,
+  author       = {Nelson Emerson},
+  title        = {Unified User Experience (UUX): An Operations-First Architectural Specification for Web Systems},
+  year         = {2026},
+  publisher    = {GitHub / OdeSea Labs},
+  howpublished = {\url{[https://github.com/NelsonEm9/uux-standard](https://github.com/NelsonEm9/uux-standard)}},
+  note         = {Version 1.0}
+}
