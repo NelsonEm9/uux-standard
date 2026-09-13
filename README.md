@@ -112,13 +112,16 @@ A strict, type-safe TypeScript package implementing the UUX equation as running 
 
 ```
 uux-design-the-paradigm-shift/
-├── src/
+├── spec/                 # CC BY 4.0 — the manuscript & specification
+│   ├── UUX-Treatise.md
+│   └── uux-standard-bookcover.png
+├── src/                  # MIT — code & implementation
 │   ├── time.ts          # shared timing + Doherty Threshold + Intent Decay constants
 │   ├── profiler.ts      # UUXProfiler — measures the UUX equation per intent
 │   ├── router.ts        # IntentRouter — deterministic categorization + webhook fan-out
 │   ├── middleware.ts    # ComplexityAbsorberMiddleware — normalization, optimistic ack, silent retries
 │   └── index.ts         # UUXFramework — wires profiler + router + middleware together
-└── example/
+└── example/              # MIT — examples
     └── basic-implementation.ts
 ```
 
@@ -165,7 +168,7 @@ Full runnable walkthrough: [`example/basic-implementation.ts`](./example/basic-i
 
 ## Read the Treatise
 
-This package is the code-first companion to the published treatise: [`UUX-Treatise.md`](./UUX-Treatise.md).
+This package is the code-first companion to the published treatise: [`UUX-Treatise.md`](./spec/UUX-Treatise.md).
 
 Eighteen chapters across five parts:
 
@@ -176,12 +179,21 @@ Eighteen chapters across five parts:
 - **Part V — Toward a Next Generation:** the future interface, a challenge to the industry, and the conclusion.
 
 <p align="center">
-  <img src="./uux-standard-bookcover.png?v=2" alt="Unified User Experience (UUX) — book cover" width="360">
+  <img src="./spec/uux-standard-bookcover.png?v=2" alt="Unified User Experience (UUX) — book cover" width="360">
 </p>
 
 ## Contributing
 
 This is now an open specification. Issues and pull requests against the treatise, the checklist, or `@uux-design/core` are welcome — this repo is the canonical, evolving version of UUX; the book is the fixed-point-in-time artifact it grew out of.
+
+## License
+
+This repository is dual-licensed by content type:
+
+- **`spec/`** — the UUX manuscript and specification (`UUX-Treatise.md`, the book cover) — is licensed under [**CC BY 4.0**](./LICENSE-CC-BY-4.0). You're free to share and adapt it for any purpose, including commercially, as long as you give appropriate credit. See [Citation & Attribution](https://odesealabs.com/uux) for the preferred citation format.
+- **`src/`** and **`example/`** — the reference implementation — are licensed under [**MIT**](./LICENSE-MIT). Use, modify, and integrate the code freely, including in commercial products, with no attribution requirement.
+
+`package.json`'s `license` field reflects the code package's license (MIT); it only ever publishes `dist/`, which is compiled from `src/` alone.
 
 ## Author
 
