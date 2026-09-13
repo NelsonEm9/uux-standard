@@ -190,7 +190,7 @@ This is now an open specification. Issues and pull requests against the treatise
 
 This repository is dual-licensed by content type:
 
-- **`spec/`** — the UUX manuscript and specification (`UUX-Treatise.md`, the book cover) — is licensed under [**CC BY 4.0**](./LICENSE-CC-BY-4.0). You're free to share and adapt it for any purpose, including commercially, as long as you give appropriate credit. See [Citation & Attribution](https://odesealabs.com/uux) for the preferred citation format.
+- **`spec/`** — the UUX manuscript and specification (`UUX-Treatise.md`, the book cover) — is licensed under [**CC BY 4.0**](./LICENSE-CC-BY-4.0). You're free to share and adapt it for any purpose, including commercially, as long as you give appropriate credit. See "Citation & Attribution" below for the preferred citation format.
 - **`src/`** and **`example/`** — the reference implementation — are licensed under [**MIT**](./LICENSE-MIT). Use, modify, and integrate the code freely, including in commercial products, with no attribution requirement.
 
 `package.json`'s `license` field reflects the code package's license (MIT); it only ever publishes `dist/`, which is compiled from `src/` alone.
@@ -217,6 +217,7 @@ The Unified User Experience (UUX) specification, formulas, and text are publishe
   title        = {Unified User Experience (UUX): An Operations-First Architectural Specification for Web Systems},
   year         = {2026},
   publisher    = {GitHub / OdeSea Labs},
-  howpublished = {\url{[https://github.com/NelsonEm9/uux-standard](https://github.com/NelsonEm9/uux-standard)}},
+  howpublished = {\url{https://github.com/NelsonEm9/uux-standard}},
   note         = {Version 1.0}
 }
+```
