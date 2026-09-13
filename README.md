@@ -4,9 +4,12 @@
 > An open-source, systems-first specification — and reference framework — for building websites as operational surfaces instead of static interfaces.
 
 <p align="center">
-  <a href="https://github.com/NelsonEm9/uux-design-the-paradigm-shift/subscription"><strong>🔔 Get notified when the full UUX book is released →</strong></a>
-  &nbsp;|&nbsp;
-  <a href="https://odesealabs.com/uux"><strong>🛰️ Follow UUX Standard development updates →</strong></a>
+  ## 📖 Roadmap, Essays & Updates
+
+- ✍️ **Weekly Substack Essays:** [Subscribe to the Newsletter](https://nelsonem9.substack.com) for weekly essays, paradigm teardowns, and engineering updates.
+- 📚 **Full Amazon Book Release:** [Subscribe on Substack](https://nelsonem9.substack.com) to be notified when the expanded commercial edition drops on Amazon KDP.
+- ⚙️ **JS Framework Core:** Star or Watch this repository to track execution framework updates, version tags, and NPM package releases (`@uux/core`).
+- 📖 **Current Specification:** [Download the UUX Treatise (PDF)](https://odesealabs.com/uux) for the complete theoretical reference specification.
 </p>
 
 ---
